@@ -1,6 +1,6 @@
 {
   "name": "@fallen_leaves/esbuild-plugin-html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An esbuild html-template that uses ejs as a template engine",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -34,7 +34,14 @@
     "esbuild template",
     "esbuild ejs"
   ],
-  "author": "fallen_leaves",
+  "author": {
+		"name": "fallen_leaves",
+		"url": "https://gitee.com/we_coder"
+	},
+  "repository": {
+		"type": "git",
+		"url": "https://gitee.com/we_coder/esbuild-plugin-html"
+	},
   "license": "ISC",
   "dependencies": {
     "@types/ejs": "^3.1.1",

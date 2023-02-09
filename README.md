@@ -7,7 +7,7 @@
 // esbuild.config.js
 
 import { build } from 'esbuild'
-import esbuildPluginHtml from 'esbuild-plugin-html'
+import esbuildPluginHtml from '@fallen_leaves/esbuild-plugin-html'
 
 build({
   entryPoints: ['src/main.js'],
