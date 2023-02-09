@@ -1,5 +1,5 @@
 {
-  "name": "esbuild-plugin-html",
+  "name": "@fallen_leaves/esbuild-plugin-html",
   "version": "1.0.0",
   "description": "An esbuild html-template that uses ejs as a template engine",
   "main": "dist/index.js",
