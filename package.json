@@ -1,6 +1,6 @@
 {
   "name": "@fallen_leaves/esbuild-plugin-html",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An esbuild html-template that uses ejs as a template engine",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

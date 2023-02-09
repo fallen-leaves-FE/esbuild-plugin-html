@@ -1,6 +1,6 @@
 使用ejs作为模板引擎的esbuild html模板插件
 ## 安装
-`npm install -D esbuild-plugin-html`
+`npm install -D @fallen_leaves/esbuild-plugin-html`
 
 ## 使用
 ```js
