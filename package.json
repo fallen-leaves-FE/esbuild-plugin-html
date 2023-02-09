@@ -1,0 +1,51 @@
+{
+  "name": "esbuild-plugin-html",
+  "version": "1.0.0",
+  "description": "An esbuild html-template that uses ejs as a template engine",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "type": "module",
+  "types": "types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "types",
+    "src"
+  ],
+  "scripts": {
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:cjs": "esbuild src/index.ts --format=cjs --platform=node --outfile=dist/index.js",
+    "build:esm": "esbuild src/index.ts --format=esm --platform=node --outfile=dist/index.esm.js"
+  },
+  "keywords": [
+    "esbuild",
+    "esbuild-plugin",
+    "esbuild-plugin-html",
+    "plugin",
+    "html",
+    "ejs",
+    "template",
+    "esbuild plugin",
+    "esbuild template",
+    "esbuild ejs"
+  ],
+  "author": "fallen_leaves",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ejs": "^3.1.1",
+    "@types/html-minifier-terser": "^7.0.0",
+    "html-minifier-terser": "^7.1.0",
+    "node-html-parser": "^6.1.4",
+    "ejs": "^3.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0",
+    "esbuild": "^0.17.6",
+    "typescript": "^4.9.5"
+  }
+}
