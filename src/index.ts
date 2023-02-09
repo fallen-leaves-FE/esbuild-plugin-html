@@ -42,7 +42,7 @@ async function createDocumentTree({
     templateStr = await htmlminifier.minify(templateStr, Object.assign({
       collapseWhitespace: true,
       collapseInlineTagWhitespace: true,
-      removeComments: true,
+      removeComments: true
     }, minify === true ? {} : minify))
   }
   // 是否需要编译ejs
